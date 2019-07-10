@@ -85,6 +85,11 @@ else: unix:!android: target.path = /home/pi/Desktop/$${TARGET}/bin
 RESOURCES += \
     s.qrc
 
+DISTFILES += \
+    ../../Pictures/Screenshot from 2019-07-10 21-55-05.png \
+    README.md \
+    Screenshot from 2019-07-10 21-55-05.png
+
 
 
 
