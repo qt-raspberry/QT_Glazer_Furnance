@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../Pictures/nero_smart_start.png</file>
+        <file>../../Pictures/images.jpeg</file>
+        <file>../../Pictures/Screenshot from 2019-06-24 13-30-29.png</file>
+        <file>../../Pictures/logo.gif</file>
+        <file>../../Pictures/images.gif</file>
+        <file>../../Pictures/logo2.gif</file>
+        <file>../../Pictures/logo3.gif</file>
+        <file>../../Pictures/images2.gif</file>
+        <file>../../Pictures/70a552e8e955049c8587b2d7606cd6a6.gif</file>
+        <file>../../Pictures/download.htm</file>
+        <file>../../Pictures/5d11b836a1f2c267406732.gif</file>
+        <file>../../Pictures/keramikofen-vita-v60i-3.jpg</file>
+        <file>../../Pictures/start.jpeg</file>
+        <file>../../Pictures/start2.jpeg</file>
+        <file>../../Pictures/start3.jpeg</file>
+        <file>../../Pictures/on-off-switch-web-icon-vector-8987899.jpg</file>
+        <file>../../Pictures/on-off-switch-web-icon-vector-8987911.jpg</file>
+        <file>../../Pictures/start4.jpeg</file>
+        <file>../../Pictures/start4.gif</file>
+        <file>../../Pictures/logo_label.gif</file>
+        <file>../../Pictures/Qt menus/images.png</file>
+        <file>../../Pictures/Qt menus/images2.png</file>
+        <file>../../Pictures/Qt menus/index.png</file>
+        <file>../../Pictures/Qt menus/index2.png</file>
+        <file>../../Pictures/Qt menus/list.png</file>
+        <file>../../Pictures/Qt menus/list2.png</file>
+        <file>../../Pictures/Qt menus/mechanism.png</file>
+        <file>../../Pictures/Qt menus/pencil.png</file>
+        <file>../../Pictures/Qt menus/repair-3-512.png</file>
+        <file>../../Pictures/Qt menus/to-do.png</file>
+        <file>../../Pictures/GSH/photos totally/unlock.gif</file>
+        <file>../../Pictures/GSH/photos totally/lock.gif</file>
+        <file>../../Pictures/Qt menus/icon.gif</file>
+        <file>../../Pictures/Qt menus/TEMP.gif</file>
+        <file>../../Pictures/Qt menus/TEMP2.gif</file>
+        <file>../../Pictures/Qt menus/TEMP_up_time.gif</file>
+        <file>../../Pictures/Qt menus/fire_off.gif</file>
+        <file>../../Pictures/Qt menus/fire_on.gif</file>
+        <file>../../Pictures/Qt menus/btn_on.gif</file>
+        <file>../../Pictures/Qt menus/btn_off.gif</file>
+    </qresource>
+</RCC>
