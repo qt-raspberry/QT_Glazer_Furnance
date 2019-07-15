@@ -150,7 +150,8 @@ void MainWindow::on_chart_button_clicked()
 {
     //ssGraphs ww;
 
-    ww.show();
+//    ssGraphs ww ;
+ww.show();
 }
 
 void MainWindow::on_heat_btn_clicked()

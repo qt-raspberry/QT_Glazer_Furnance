@@ -86,7 +86,13 @@ RESOURCES += \
     s.qrc
 
 DISTFILES += \
+    ../../Pictures/Qt menus/Arrow_key.gif \
+    ../../Pictures/Qt menus/Arrow_key.gif \
+    ../../Pictures/Qt menus/Arrow_key.gif \
+    ../../Pictures/Qt menus/Arrow_key.gif \
+    ../../Pictures/Qt menus/Arrow_key2.gif \
     ../../Pictures/Screenshot from 2019-07-10 21-55-05.png \
+    Files/ssimages.png \
     README.md \
     Screenshot from 2019-07-10 21-55-05.png
 

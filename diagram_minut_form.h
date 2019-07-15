@@ -17,6 +17,9 @@ public:
      int Lock_stuation(bool lock_sit) ;
      void Program_number(int Program_number_i,QString program_name);
 
+private slots:
+     void on_label_38_linkHovered(const QString &link);
+
 private:
     Ui::diagram_minut_form *ui;
 };
