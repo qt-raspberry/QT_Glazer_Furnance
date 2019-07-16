@@ -102,6 +102,7 @@ void MainWindow::Label_font(){
 
 
 
+
 }
 
 void MainWindow::resizeEvent(QResizeEvent* event)

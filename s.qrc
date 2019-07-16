@@ -40,5 +40,6 @@
         <file>../../Pictures/Qt menus/fire_on.gif</file>
         <file>../../Pictures/Qt menus/btn_on.gif</file>
         <file>../../Pictures/Qt menus/btn_off.gif</file>
+        <file>../../Pictures/Qt menus/Arrow_key.gif</file>
     </qresource>
 </RCC>

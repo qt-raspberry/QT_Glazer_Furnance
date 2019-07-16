@@ -7,6 +7,7 @@ diagram_minut_form::diagram_minut_form(QWidget *parent) :
 {
     ui->setupUi(this);
    Lock_stuation(0);
+   Label_pic();
 }
 
 diagram_minut_form::~diagram_minut_form()
@@ -36,6 +37,54 @@ int diagram_minut_form::Lock_stuation(bool lock_sit) {
 
 }
 
+void diagram_minut_form::Label_pic(){
+
+//        ui->label_73->setStyleSheet(QString::fromUtf8("position: absolute; top:1px;left:1px;\
+//                                    width:10%;\
+//                                    border-image:url(:/Pictures/Qt menus/TEMP2.gif);\
+//        background-repeat: no-repeat;\
+//        border-image-width: 25%;\
+//border-radius: 5px;\
+//         background-size: 30px 30px;\
+//                                    "));
+
+
+//        QPixmap *tile=new QPixmap(":/Pictures/Qt menus/TEMP2.gif");
+//        QPixmap *pixmap=new QPixmap(":/Pictures/Qt menus/TEMP2.gif");
+//        pixmap->fill(Qt::transparent);
+//        QPainter *painter=new QPainter(pixmap);
+
+
+//        painter->drawPixmap(0, 0, 29, 49, QPixmap(":/Pictures/Qt menus/TEMP2.gif"));
+//        painter->end();
+
+//        ui->label->setPixmap(*pixmap);
+//        ui->label->resize(QSize(23,26));
+
+//        QImage yourImage(":/Pictures/Qt menus/TEMP2.gif");
+//        QLabel image= new QLabel(centralwidget);
+//        ui->label->setGeometry(QRect(20, 10, 371, 311));
+//        ui->label->setPixmap(QPixmap(QPixmap::fromImage(yourImage)));
+
+
+//        QPixmap px(":/Pictures/Qt menus/TEMP2.gif");
+//        px = px.scaled( QSize(30,30) );
+//        ui->label->setPixmap(px);
+////        ui->label->setGeometry(0,0,100,100);
+////        ui->label->setSizeIncrement(33,33);
+//        if(!px.isNull())
+//        {
+//        ui->label->setPixmap(px);
+//        ui->label->show();
+//        }
+
+
+
+//        QPixmap px(":/Pictures/Qt menus/TEMP2.gif");
+//        ui->label->setPixmap(px);
+//        ui->label->setGeometry(10,10,82,82);
+
+}
 
 void diagram_minut_form::Program_number(int Program_number_i,QString program_name) {
 
@@ -55,8 +104,7 @@ void diagram_minut_form::on_label_38_linkHovered(const QString &link)
     ui->label_64->setWindowOpacity(0.35);
     ui->label_64->setAttribute(Qt::WA_TranslucentBackground, false);
     ui->label_64->setStyleSheet("background-color: yellow;");
-    ui->lyaout_3->SetFixedSize;
-//    ui->lyaout_3.set
+//    ui->lyaout_3->SetFixedSize;
 
 
 }

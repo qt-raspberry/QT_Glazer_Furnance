@@ -22,6 +22,7 @@ private slots:
 
 private:
     Ui::diagram_minut_form *ui;
+    void Label_pic();
 };
 
 #endif // DIAGRAM_MINUT_FORM_H

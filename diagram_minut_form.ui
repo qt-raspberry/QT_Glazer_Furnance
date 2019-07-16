@@ -17,7 +17,17 @@
    <double>1.000000000000000</double>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(72, 72, 72);</string>
+   <string notr="true">#diagram_minut_form{
+background-color: rgb(72, 72, 72);
+}
+
+#lyaout_3 ,#hor_3, #hor_4 {
+background-color:rgba(72, 72, 72, 0.01);
+
+}
+#hor_3{
+background-color:rgba(72, 72, 72);
+}</string>
   </property>
   <widget class="QWidget" name="layoutWidget_3">
    <property name="geometry">
@@ -156,7 +166,7 @@ border-top-left-radius: 10px ;
      <height>181</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <layout class="QHBoxLayout" name="hor_3">
     <property name="spacing">
      <number>1</number>
     </property>
@@ -175,7 +185,7 @@ border-top-left-radius: 10px ;
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-style: solid ;
+       <string notr="true">background-color:rgba(72, 72, 72, 0.01);border-style: solid ;
 border: solid gray;
   border-width: 2px;
 /*border: 2px solid gray;
@@ -187,7 +197,7 @@ border-bottom-left-radius: 10px ;</string>
     <item>
      <widget class="QGraphicsView" name="graphicsView_2">
       <property name="styleSheet">
-       <string notr="true">border: 2px solid gray;
+       <string notr="true">background-color:rgba(72, 72, 72, 0.01);border: 2px solid gray;
 </string>
       </property>
      </widget>
@@ -195,7 +205,7 @@ border-bottom-left-radius: 10px ;</string>
     <item>
      <widget class="QGraphicsView" name="graphicsView_3">
       <property name="styleSheet">
-       <string notr="true">border: 2px solid gray;
+       <string notr="true">background-color:rgba(72, 72, 72, 0.01);border: 2px solid gray;
 </string>
       </property>
      </widget>
@@ -217,7 +227,80 @@ border-bottom-left-radius: 10px ;</string>
       <property name="styleSheet">
        <string notr="true">border: 2px solid gray;
 /*border-top-right-radius: 10px ;*/
-border-bottom-right-radius: 10px ;</string>
+border-bottom-right-radius: 10px ;
+
+background-color:rgba(72, 72, 72, 0.01);</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>250</y>
+     <width>411</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <property name="spacing">
+     <number>1</number>
+    </property>
+    <item>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="minimumSize">
+       <size>
+        <width>204</width>
+        <height>79</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>204</width>
+        <height>79</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+z-index:-1;
+border-image: url(:/Pictures/Qt menus/Arrow_key.gif);</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_74">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>120</horstretch>
+        <verstretch>20</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>204</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>204</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/Pictures/Qt menus/Arrow_key.gif);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>1111</number>
       </property>
      </widget>
     </item>
@@ -226,9 +309,9 @@ border-bottom-right-radius: 10px ;</string>
   <widget class="QWidget" name="layoutWidget_2">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>43</x>
      <y>180</y>
-     <width>711</width>
+     <width>702</width>
      <height>71</height>
     </rect>
    </property>
@@ -422,7 +505,7 @@ image: url(:/Pictures/Qt menus/TEMP_up_time.gif);</string>
       </property>
       <property name="minimumSize">
        <size>
-        <width>50</width>
+        <width>70</width>
         <height>20</height>
        </size>
       </property>
@@ -466,7 +549,7 @@ image: url(:/Pictures/Qt menus/TEMP_up_time.gif);</string>
       </property>
       <property name="minimumSize">
        <size>
-        <width>60</width>
+        <width>80</width>
         <height>20</height>
        </size>
       </property>
@@ -510,8 +593,14 @@ image: url(:/Pictures/Qt menus/TEMP_up_time.gif);</string>
       </property>
       <property name="minimumSize">
        <size>
-        <width>138</width>
+        <width>100</width>
         <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
        </size>
       </property>
       <property name="styleSheet">
@@ -524,55 +613,121 @@ image: url(:/Pictures/Qt menus/TEMP_up_time.gif);</string>
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="horizontalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>250</y>
-     <width>411</width>
-     <height>81</height>
+     <x>192</x>
+     <y>254</y>
+     <width>241</width>
+     <height>71</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_4">
-    <property name="spacing">
-     <number>1</number>
-    </property>
+   <layout class="QHBoxLayout" name="hor_4">
     <item>
-     <widget class="QLabel" name="label_73">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-        <horstretch>120</horstretch>
-        <verstretch>20</verstretch>
-       </sizepolicy>
-      </property>
+     <widget class="QLabel" name="label_2">
       <property name="minimumSize">
        <size>
-        <width>204</width>
-        <height>20</height>
+        <width>30</width>
+        <height>60</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>204</width>
-        <height>100</height>
+        <width>30</width>
+        <height>60</height>
        </size>
       </property>
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
       <property name="styleSheet">
-       <string notr="true">border-image: url(:/Files/Arrow_key.gif);</string>
+       <string notr="true">border-image: url(:/Pictures/Qt menus/TEMP2.gif);
+background-color:rgba(0, 0, 0, 0.01);</string>
       </property>
       <property name="text">
        <string/>
       </property>
-      <property name="margin">
-       <number>1111</number>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>158</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="minimumSize">
+       <size>
+        <width>30</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>30</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/Pictures/Qt menus/TEMP2.gif);
+background-color:rgba(0, 0, 0, 0.01);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>191</x>
+     <y>252</y>
+     <width>411</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_7">
+    <property name="spacing">
+     <number>1</number>
+    </property>
+    <item>
+     <widget class="QTextEdit" name="textEdit_2">
+      <property name="minimumSize">
+       <size>
+        <width>204</width>
+        <height>79</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>204</width>
+        <height>79</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(72, 72, 72, 0.01);/*border-image: url(:/Pictures/Qt menus/Arrow_key.gif);*/
+background-size:contain;
+background-size: auto;
+
+
+border-style: solid ;
+border: solid gray;
+  border-width: 2px;
+/*border: 2px solid gray;
+border-top-left-radius: 10px ;*/
+border-bottom-left-radius: 10px ;</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QLabel" name="label_74">
+     <widget class="QLabel" name="label_76">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>120</horstretch>
@@ -595,8 +750,17 @@ image: url(:/Pictures/Qt menus/TEMP_up_time.gif);</string>
        <bool>false</bool>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-image: url(:/Files/Arrow_key.gif);
-</string>
+       <string notr="true">/*border-image: url(:/Pictures/Qt menus/Arrow_key.gif);*/
+background-size:contain;
+background-size: auto;
+
+
+border-style: solid ;
+border: solid gray;
+  border-width: 2px;
+/*border: 2px solid gray;
+border-top-left-radius: 10px ;*/
+border-bottom-right-radius: 10px ;</string>
       </property>
       <property name="text">
        <string/>
@@ -607,6 +771,46 @@ image: url(:/Pictures/Qt menus/TEMP_up_time.gif);</string>
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>251</y>
+     <width>91</width>
+     <height>79</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color:rgba(72, 72, 72, 0.01);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>250</y>
+     <width>54</width>
+     <height>79</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>390</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
   </widget>
  </widget>
  <resources/>
