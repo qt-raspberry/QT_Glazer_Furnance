@@ -1,0 +1,3 @@
+[submodule "qt_qthread_qobject_demo"]
+	path = qt_qthread_qobject_demo
+	url = https://gitlab.com/aleksandaratanasov/qt_qthread_qobject_demo.git
