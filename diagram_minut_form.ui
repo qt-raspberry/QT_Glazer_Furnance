@@ -823,9 +823,12 @@ background: qlineargradient(x1: 0, y1: 0.5, x2: 1, y2: 0.5, stop: 0 green, stop:
    </property>
   </widget>
   <widget class="Widget" name="widget" native="true">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
    <property name="geometry">
     <rect>
-     <x>580</x>
+     <x>780</x>
      <y>250</y>
      <width>211</width>
      <height>131</height>
