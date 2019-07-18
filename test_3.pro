@@ -31,6 +31,9 @@ SOURCES += \
               main.cpp \
         mainwindow.cpp \
 #        qwtanalogclock.cpp \
+#    qt_qthread_qobject_demo-master/main.cpp \
+    qt_qthread_qobject_demo-master/widget.cpp \
+    qt_qthread_qobject_demo-master/worker.cpp \
     sql_program_cl.cpp \
        ssgraphs.cpp \
     switch.cpp
@@ -45,6 +48,8 @@ HEADERS += \
 #        qwt_global.h \
 #        qwtanalogclock.h \
 #    qwtanalogclock.h \
+    qt_qthread_qobject_demo-master/widget.h \
+    qt_qthread_qobject_demo-master/worker.h \
     sql_program_cl.h \
           ssgraphs.h \
     style.h \
@@ -55,6 +60,7 @@ FORMS += \
     diagram_minut_form.ui \
         mainwindow.ui \
 #        qwtanalogclock.ui \
+    qt_qthread_qobject_demo-master/widget.ui \
         ssgraphs.ui #\
 #    temp_chart.ui
 
@@ -94,8 +100,14 @@ DISTFILES += \
     ../../Pictures/Screenshot from 2019-07-10 21-55-05.png \
     Files/ssimages.png \
     README.md \
-    Screenshot from 2019-07-10 21-55-05.png
+    Screenshot from 2019-07-10 21-55-05.png \
+    qt_qthread_qobject_demo-master/README \
+    qt_qthread_qobject_demo-master/qthread_qobject_demo.png \
 
+SUBDIRS += \
+#    qt_qthread_qobject_demo-master/QObjectThread.pro \
 
+#OTHER_FILES += \
+#    qt_qthread_qobject_demo-master/QObjectThread.pro\
 
 

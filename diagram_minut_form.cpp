@@ -84,6 +84,11 @@ void diagram_minut_form::Label_pic(){
 //        ui->label->setPixmap(px);
 //        ui->label->setGeometry(10,10,82,82);
 
+    ui->progressBar->setOrientation(Qt::Vertical);
+    ui->progressBar->setTextDirection(QProgressBar::BottomToTop);
+    ui->progressBar->setRange(0, 100);
+    ui->progressBar->setValue(20);
+
 }
 
 void diagram_minut_form::Program_number(int Program_number_i,QString program_name) {

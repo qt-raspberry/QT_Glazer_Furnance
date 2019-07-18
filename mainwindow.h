@@ -12,6 +12,7 @@
 #include <QChartView>
 #include "ssgraphs.h"
 #include "analogclockwindow.h"
+//#include "qt_qthread_qobject_demo-master/widget.h"
 #include "diagram_minut_form.h"
 #include "sql_program_cl.h"
 #include <QColor>

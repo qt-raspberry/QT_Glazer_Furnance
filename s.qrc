@@ -41,5 +41,17 @@
         <file>../../Pictures/Qt menus/btn_on.gif</file>
         <file>../../Pictures/Qt menus/btn_off.gif</file>
         <file>../../Pictures/Qt menus/Arrow_key.gif</file>
+        <file>../../Pictures/Qt menus/Untitled.png</file>
+        <file>../../Pictures/Qt menus/Untitled2.png</file>
+        <file>../../Pictures/Qt menus/progress_bar_vertical.gif</file>
+        <file>../../Pictures/Qt menus/down.gif</file>
+        <file>../../Pictures/Qt menus/down2.gif</file>
+        <file>../../Pictures/Qt menus/up.gif</file>
+        <file>../../Pictures/Qt menus/gearing.gif</file>
+        <file>../../Pictures/Qt menus/standby.gif</file>
+        <file>../../Pictures/Qt menus/standby2.gif</file>
+        <file>../../Pictures/Qt menus/save2.gif</file>
+        <file>../../Pictures/Qt menus/cooling-icon.gif</file>
+        <file>../../Pictures/Qt menus/stop.gif</file>
     </qresource>
 </RCC>

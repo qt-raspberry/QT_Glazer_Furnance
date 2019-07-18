@@ -100,6 +100,15 @@ border-radius: 40px;</string>
         <height>16777215</height>
        </size>
       </property>
+      <property name="font">
+       <font>
+        <family>Scheherazade</family>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -311,7 +320,7 @@ border-image: url(:/Pictures/Qt menus/Arrow_key.gif);</string>
     <rect>
      <x>43</x>
      <y>180</y>
-     <width>702</width>
+     <width>712</width>
      <height>71</height>
     </rect>
    </property>
@@ -775,44 +784,564 @@ border-bottom-right-radius: 10px ;</string>
   <widget class="QTextEdit" name="textEdit_3">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>132</x>
      <y>251</y>
-     <width>91</width>
-     <height>79</height>
+     <width>41</width>
+     <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">
-background-color:rgba(72, 72, 72, 0.01);</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>250</y>
-     <width>54</width>
-     <height>79</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
+    <string notr="true">background-color:rgba(72, 72, 72, 0.01);
+border-image: url(:/Pictures/Qt menus/progress_bar_vertical.gif);</string>
    </property>
   </widget>
   <widget class="QProgressBar" name="progressBar">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>390</y>
-     <width>118</width>
-     <height>23</height>
+     <x>144</x>
+     <y>260</y>
+     <width>16</width>
+     <height>61</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">progressBar:vertical {
+border: 1px solid gray;
+border-radius: 3px;
+background: white;
+padding: 1px;
+text-align: center;
+writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+progressBar::chunk:vertical {
+background: qlineargradient(x1: 0, y1: 0.5, x2: 1, y2: 0.5, stop: 0 green, stop: 1 white);
+}</string>
    </property>
    <property name="value">
     <number>24</number>
    </property>
   </widget>
+  <widget class="Widget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>250</y>
+     <width>211</width>
+     <height>131</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>250</y>
+     <width>51</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>18</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>Tibetan Machine Uni</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string> 50 %</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>18</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>350</y>
+     <width>721</width>
+     <height>114</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>129</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/*border-image: url(:/Pictures/Qt menus/Arrow_key.gif);*/
+background-size:contain;
+background-size: auto;
+image: url(:/Pictures/Qt menus/up.gif);
+
+border-style: solid ;
+border: solid gray;
+  border-width: 2px;
+/*border: 2px solid gray;
+border-top-left-radius: 10px ;*/
+border-top-right-radius: 10px ;
+border-top-left-radius: 10px ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>2</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>129</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/*border-image: url(:/Pictures/Qt menus/Arrow_key.gif);*/
+background-size:contain;
+background-size: auto;
+
+border-style: solid ;
+image: url(:/Pictures/Qt menus/down.gif);
+border: solid gray;
+  border-width: 2px;
+/*border: 2px solid gray;
+border-top-left-radius: 10px ;*/
+border-bottom-right-radius: 10px ;
+border-bottom-left-radius: 10px ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>111</width>
+        <height>111</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/*border-image: url(:/Pictures/Qt menus/Arrow_key.gif);*/
+background-size:contain;
+background-size: auto;
+border-style: solid ;
+border: solid gray;
+  border-width: 2px;
+/*border: 2px solid gray;
+border-top-left-radius: 10px ;*/
+border-top-right-radius: 10px ;
+border-top-left-radius: 10px ;
+image: url(:/Pictures/Qt menus/standby2.gif);
+
+border-bottom-right-radius: 10px ;
+border-bottom-left-radius: 10px ;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>111</width>
+        <height>111</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/*border-image: url(:/Pictures/Qt menus/Arrow_key.gif);*/
+background-size:contain;
+background-size: auto;
+image: url(:/Pictures/Qt menus/gearing.gif);
+border-style: solid ;
+border: solid gray;
+  border-width: 2px;
+/*border: 2px solid gray;
+border-top-left-radius: 10px ;*/
+border-top-right-radius: 10px ;
+border-top-left-radius: 10px ;
+
+border-bottom-right-radius: 10px ;
+border-bottom-left-radius: 10px ;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>129</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/*border-image: url(:/Pictures/Qt menus/Arrow_key.gif);*/
+background-size:contain;
+background-size: auto;
+image: url(:/Pictures/Qt menus/save2.gif);
+border-style: solid ;
+border: solid gray;
+  border-width: 2px;
+/*border: 2px solid gray;
+border-top-left-radius: 10px ;*/
+border-top-right-radius: 10px ;
+border-top-left-radius: 10px ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>2</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>129</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/*border-image: url(:/Pictures/Qt menus/Arrow_key.gif);*/
+background-size:contain;
+background-size: auto;
+
+border-style: solid ;
+image: url(:/Pictures/Qt menus/cooling-icon.gif);
+border: solid gray;
+  border-width: 2px;
+/*border: 2px solid gray;
+border-top-left-radius: 10px ;*/
+border-bottom-right-radius: 10px ;
+border-bottom-left-radius: 10px ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>129</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/*border-image: url(:/Pictures/Qt menus/Arrow_key.gif);*/
+background-color: rgb(78, 154, 6);
+background-size:contain;
+background-size: auto;
+image: url(:/Pictures/Qt menus/down2.gif);
+border-style: solid ;
+border: solid gray;
+  border-width: 2px;
+/*border: 2px solid gray;
+border-top-left-radius: 10px ;*/
+border-top-right-radius: 10px ;
+border-top-left-radius: 10px ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>2</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>129</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/*border-image: url(:/Pictures/Qt menus/Arrow_key.gif);*/
+background-color: rgb(239, 41, 41);
+image: url(:/Pictures/Qt menus/stop.gif);
+background-size:contain;
+background-size: auto;
+
+border-style: solid ;
+border: solid gray;
+  border-width: 2px;
+/*border: 2px solid gray;
+border-top-left-radius: 10px ;*/
+border-bottom-right-radius: 10px ;
+border-bottom-left-radius: 10px ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Widget</class>
+   <extends>QWidget</extends>
+   <header>qt_qthread_qobject_demo-master/widget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
